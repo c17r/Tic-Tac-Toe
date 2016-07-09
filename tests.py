@@ -1,7 +1,0 @@
-#!/usr/bin/env python
-
-import unittest
-
-if __name__ == "__main__":
-    ts = unittest.TestLoader().discover(".")
-    unittest.TextTestRunner(verbosity=1).run(ts)
